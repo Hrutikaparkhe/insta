@@ -1,0 +1,23 @@
+.no_account {
+    color: rgba(var(--i1d, 38, 38, 38), 1);
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+
+.signup {
+    text-decoration: none;
+    color: #0095f6;
+    display: inline!important;
+    margin: 0!important;
+}
+
+.sign_in_box {
+    float: left;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid lavender;
+    background-color: white;
+    text-align: center;
+    margin: 50px 10px 5px 20px;
+}

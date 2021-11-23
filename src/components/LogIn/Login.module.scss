@@ -1,0 +1,100 @@
+body {
+    background: #fafafa !important;
+}
+
+.or {
+    padding: 0px;
+    margin: 20px 0px 15px 0px;
+    font-size: 13px;
+    font-weight: 600;
+    color: darkgray;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    display: inline-block;
+    color: whitesmoke;
+    overflow: visable;
+}
+
+.hrleft {
+    margin: 5px 20px 5px 0px;
+}
+
+.hrright {
+    margin: 5px 0px 5px 20px;
+}
+
+.facebook_login {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+
+.fb {
+    color: #385185;
+    font-weight: bold;
+}
+
+.fb_logo {
+    margin: 10px;
+}
+
+.fb_btn {
+    border: 0;
+    // color: #0095f6;
+    color: rgba(var(--d69, 0, 149, 246), 1);
+    display: inline;
+    padding: 0;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sub_container {}
+
+.row {
+    display: flex;
+    margin-top: -105px;
+}
+
+.column_containers {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    overflow: auto;
+    background-color: snow;
+    padding: 0px 0px 100px 0px;
+}
+
+.left_container {
+    float: right;
+    margin: 130px 0px 0px 0px;
+    position: relative;
+}
+
+.right_container {
+    width: 280px;
+    margin-top: 150px;
+}
+
+.phone_pic {
+    position: absolute;
+    top: 101px;
+    right: 64px;
+}
+
+.phone_pic img {
+    width: 238px;
+}
+
+.sign_in_box {
+    float: left;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid lavender;
+    background-color: white;
+    text-align: center;
+    margin: 50px 10px 5px 20px;
+}
