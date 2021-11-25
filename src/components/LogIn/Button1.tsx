@@ -3,6 +3,7 @@ import * as React from 'react';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import { ThemeProvider, makeStyles } from '@mui/styles';
+import { useHistory } from "react-router-dom";
 interface MyTheme {
     background: string;
     boxShadow: string;
@@ -25,9 +26,10 @@ interface MyTheme {
   }));
   function DeepChild() {
     const classes = useStyles();
-  
+    const history = useHistory();
     return (
-      <button type="button" className={classes.root}>
+      <button type="button" className={classes.root} 
+      onClick={() => history.push("/login")}>
         Log In
       </button>
     );

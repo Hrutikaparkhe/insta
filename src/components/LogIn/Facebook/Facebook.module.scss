@@ -1,0 +1,40 @@
+.fb_login {
+    margin: 0px 161px;
+    padding: 22px 108px 26px;
+    border: 1 px solid #dddfe2;
+    border-radius: 3 px;
+}
+
+.fb_login_box {
+    color: #1C1E21;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0px;
+    font-weight: 500;
+}
+
+.fb_login_container {
+    display: flex;
+    justify-content: center;
+    padding: 80px 80px;
+    background-color: #e9ebee;
+}
+
+.forget_act,
+.not_now_btn,
+.signup_fb {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #ffff;
+    font-family: inherit;
+    font-size: 12px;
+}
+
+.fb_btn1,
+.fb_btn2 {
+    display: flex;
+    justify-content: center;
+}
