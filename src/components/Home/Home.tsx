@@ -3,13 +3,12 @@ import Navbar from './Navbar/Navbar';
 const Home = () =>{
 return(
     <>
-    <Navbar/>
-    <div className={styles.leftScreen}>
-
+  <div className={styles.main}>
+    <div className={styles.navbar}>
+      <Navbar/>
     </div>
-    <div className={styles.righttScreen}>
-
-        </div>
+    <div className={styles.main_Screen}></div>
+  </div>
         </>
 )
 }

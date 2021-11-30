@@ -1,21 +1,27 @@
-.leftScreen {
-    height: 100%;
-    width: 60%;
-    position: fixed;
-    z-index: 1;
+.main {
+    position: absolute;
     top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    background-color: #fafafa;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
-.rightScreen {
-    height: 100%;
-    width: 40%;
-    position: fixed;
-    z-index: 1;
+.navbar {
+    position: absolute;
     top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    background-color: #fafafa;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+    text-align: center;
+}
+
+.main_screen {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    // background-color: #990000;
+    text-align: center;
+    color: #FFFFFF;
 }
